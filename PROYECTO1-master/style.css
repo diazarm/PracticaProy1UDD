@@ -23,6 +23,11 @@
         display: none;
     }
 }
+
+a{
+    color: inherit;
+}
+
 .header {
     background-color: rgba(17, 24, 39, 1);
     height: 95px;
@@ -256,6 +261,7 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 .footer {
     color: rgba(156, 163, 175);
@@ -280,6 +286,8 @@
     padding-right: 30px;
     gap: 2rem;
     font-size: larger;
+    text-decoration: none;
+    color: grey; 
 }
 .noiconos {
     display: flex;
