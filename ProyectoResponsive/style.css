@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #eded;
+}
+
+.home{
+    display:flex;
+    flex-wrap: wrap
+}
+
+.in-flex{
+    flex:1;
+    padding: 25px;
+    min-width: 250px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0%;
+}
+.in-flex div {
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
